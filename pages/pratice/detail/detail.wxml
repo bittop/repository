@@ -1,3 +1,0 @@
-<!-- pages/pratice/detail/detail.wxml -->
-<import src="../../module/swiperitem.wxml" />
-<template is="swiperitem" data="{{elements,taskList}}" />
