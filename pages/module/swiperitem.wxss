@@ -1,0 +1,170 @@
+/* pages/pratice/detail/detail.wxss */
+page
+{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background: #f0eff5;
+}
+.pd-container
+{
+    width: 94%;
+    height: 100%;
+    padding: 0 3%;
+}
+.pd-container
+swiper
+{
+    width: 100%;
+    height: 100%;
+}
+.pd-swiper-content
+{
+    width: 100%;
+    height: calc(30% + 5% + 70% + (150rpx + 10rpx + 1% + 65rpx + 2rpx));
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+/*操作区域*/
+.pd-co-optarea
+{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.co-op-article
+{
+    width: 94%;
+    overflow: auto;
+    background: #ffffff;
+    padding: 3% 3%;
+    margin: 3% 0;
+    border-radius: 10rpx;
+    box-shadow: 0 0 20rpx rgba(150, 150, 150, 0.1);
+}
+.co-op-article
+view:last-child
+{
+    margin: 3% 0 0 0;
+    color: #00a2F6;
+    font-size: 30rpx;
+}
+/*操作区域字体*/
+.pd-co-optarea
+text
+{
+    font-size: 32rpx;
+    color: #505050;
+    word-wrap: break-word;
+    overflow: auto;
+}
+.pd-co-optarea
+text:first-child
+{
+    color: #00a2F6;
+}
+/*选项条目*/
+.pd-co-optarea
+label
+{   
+    width: 94%;
+    margin: 2% 0;
+    padding: 5% 3%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 10rpx;
+    box-shadow: 0 0 20rpx rgba(150, 150, 150, 0.1);
+}
+/*.pd-co-optarea
+label:hover
+{
+    background: #FFFFF1;
+}*/
+/*多项选项方框*/
+.op-op-select
+{
+    width: 65rpx;
+    height: 65rpx;
+    line-height: 65rpx;
+    text-align: center;
+    margin-right: 3%;
+    border: 1rpx solid #00a2F6;
+}
+/*单项选择圆圈*/
+#op-op-slect_sure
+{
+    border-radius: 65rpx;
+}
+/*选项文本*/
+.op-op-context
+{
+    width: 90%;
+    font-size: 32rpx;
+    color: #505050;
+}
+/*结果页面*/
+.pd-swiper-result
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+.sw-result-view
+{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.re-bo-nullTip
+text
+{
+    display: block;
+    width: 100%;
+    height: 100rpx;
+    line-height: 100rpx;
+    text-align: center;
+    color: #909090;
+    font-size: 28rpx;
+}
+.pd-result-body
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: auto;
+}
+.re-bo-se_block
+{
+    width: 20%;
+    margin: 2% 2%;
+    padding: 3% 2%;
+    background: #ffffff;
+    border-radius: 10rpx;
+
+}
+.re-bo-selected
+{
+    width: 80rpx;
+    height: 80rpx;
+    border: 1rpx solid #00a2F6;
+    text-align: center;
+    line-height: 80rpx;
+    border-radius: 80rpx;
+    color: #505050;
+    font-size: 30rpx;
+    margin: 0 auto;
+}
+#re-bo-unselect
+{
+    border: 1rpx solid #b18fff;
+}
