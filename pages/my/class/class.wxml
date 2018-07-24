@@ -1,0 +1,21 @@
+<!--pages/my/class/class.wxml-->
+<view>
+    <view class="class">
+        <block wx:for="{{myCourseLists.usercourse}}">
+            <view class="class-frame">
+                <view class="cls-fra-line"></view>
+                <view class="cls-fra-inf">
+                    <image src='{{item.logo}}'></image>
+                    <view class="cls-inf-txt">
+                        <text class="cls-inf-txt1">{{item.className}}</text>
+                        <text class="cls-inf-txt2">{{item.name}}</text>
+                    </view>
+                </view>
+            </view>
+        </block>
+    </view>
+
+    <view class="class-button" catchtap='classButton' data-classid="{{classID}}">
+        <text>添加</text>
+    </view>
+</view>

@@ -1,0 +1,151 @@
+page {
+    width: 100%;
+    height: 100%;
+}
+
+.answer-topic {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 95%;
+}
+
+/* 问题标题 */
+
+.ans-tpc-text text {
+    font-size: 27rpx;
+}
+
+/* 问题图片 */
+
+.ans-tpc-pic {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.ans-tpc-pic image {
+    width: 100%;
+}
+
+.coverNone {
+    display: none;
+}
+
+.answer-input {
+    width: 95%;
+    height: 180rpx;
+    margin: 2% auto 0;
+    border: 1rpx solid #b9b9b9;
+}
+
+/* 评论回答文字提示样式 */
+
+.answer-input input {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 27rpx;
+    padding-left: 10rpx;
+}
+
+/* 评论回复按钮样式 */
+
+.answer-input button {
+    width: 20%;
+    margin-left: 78%;
+    margin-top: 8%;
+    background: #21b0ec;
+    font-size: 24rpx;
+    color: white;
+}
+
+.answer-frame {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.ans-line {
+    width: 95%;
+    margin: 10% auto;
+    border: 1rpx dashed #ddd;
+    opacity: 0.5;
+}
+
+.ans-discuss {
+    margin-bottom: 8%;
+}
+
+.ans-text {
+    text-align: center;
+    position: relative;
+    margin-top: -14.5%;
+}
+
+.ans-text text {
+    font-family: "Microsoft YaHei";
+    font-size: 32rpx;
+    color: #ccc;
+}
+
+.ans-fra-hotcomments text {
+    font-size: 32rpx;
+    font-weight: bold;
+}
+
+.ans-fra-question {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8%;
+}
+
+.ans-que-logo {
+    width: 90rpx;
+    height: 90rpx;
+    border: 1rpx solid #b9b9b9;
+    border-radius: 50%;
+}
+
+/* 回复者头像样式 */
+
+.ans-que-logo image {
+    width: 90rpx;
+    height: 90rpx;
+}
+
+.ans-que-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    line-height: 40rpx;
+}
+
+/* 问题标题样式 */
+
+.ans-txt-title {
+    font-size: 27rpx;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+/* 回复者回答样式 */
+
+.ans-txt-que {
+    font-size: 27rpx;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #b9b9b9;
+}
+
+.unfold {
+    display: block;
+}
+
+.fold {
+    display: none;
+}
+
+/* .answer-add
+{
+  width:50rpx;
+  height:50rpx;
+  border:10rpx solid red;
+  border-radius:50%;
+} */

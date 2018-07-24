@@ -1,0 +1,45 @@
+<!--pages/index/answer/answer.wxml-->
+<view>
+    <!-- 问答标题 -->
+  <view class="answer-topic">
+    <view class="ans-tpc-text">
+      <text>{{subject.elements.topicText}}</text>
+    </view>
+    <!-- 问答图片 -->
+    <view class="ans-tpc-pic">
+      <image src='{{subject.elements.topicPic}}'></image>
+    </view>
+  </view>
+
+    <!-- 评论输入按钮 -->
+  <form bindsubmit='submit'>
+    <view class="answer-input">
+      <input placeholder='在此输入评论或你的想法' name="inputReply">   
+      </input>
+      <button form-type='submit'>输入</button>
+    </view>
+  </form>
+  
+    <!-- 评论具体列表 -->
+  <view class="answer-frame">
+    <view class="ans-fra-hotcomments">
+      <text>
+        标准答案
+      </text>
+    </view>
+    <block wx:for="{{subject.list}}">
+      <view class="ans-fra-question">
+        <!-- 提问者头像 -->
+        <view class="ans-que-logo">
+          <image src='{{item.avatar}}'></image>
+        </view>
+        <view class="ans-que-text">
+            <!-- 提问标题 -->
+          <text class="ans-txt-title">{{item.txtTitle}}</text>
+            <!-- 回贴内容 -->
+          <text class="ans-txt-que">{{item.txtAnswer}}</text>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

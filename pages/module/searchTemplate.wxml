@@ -1,0 +1,6 @@
+<template name="searchTemplete">
+  <view class='in-hd-search'>
+    <input type='text' placeholder='输入你想要的内容' value="{{inputValue}}" bindinput='inputBind' bindconfirm='query'></input>
+    <image src='../../picture/search.png' bindtap='query'></image>
+  </view>
+</template>

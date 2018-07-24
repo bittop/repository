@@ -1,0 +1,51 @@
+page{
+  background: #00a2f6;
+  color:#fff;
+}
+
+.container{
+  width:100%;
+  height:100%;
+}
+
+.usermotto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input{
+  margin-top:10%;
+}
+
+.text{
+  background: #D2D2D2;
+}
+
+.logIn{
+  
+  width:150rpx;
+  height:150rpx;
+  line-height: 150rpx;
+  text-align: center;
+  margin-top:10%;
+  background: #fff;
+  color:#00a2f6;
+}
+
+.register{
+  
+  width:150rpx;
+  height:150rpx;
+  line-height: 150rpx;
+  text-align: center;
+  margin-top:10%;
+  background: #fff;
+  color:#00a2f6;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    
+}
