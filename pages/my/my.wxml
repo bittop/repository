@@ -1,0 +1,50 @@
+<!--pages/my/my.wxml-->
+<view>
+  <view class="my-information">
+    <view class="my-inf-frame" >
+      <view class="my-fra-avatar">
+        <view class="my-avt-pic">
+          <image src='{{Lists.userinfo.medal}}'></image>
+        </view>
+        <text class="my-avt-name">{{Lists.userinfo.honor}}</text>
+      </view>
+      <view class="my-fra-definite">
+        <view class="my-def-answer">
+          <text>等级：</text>
+          <text>{{Lists.userinfo.grade}}</text>
+        </view>
+        <view class="my-def-QA">
+          <text>姓名：</text>
+          <text>{{Lists.userinfo.name}}</text>
+        </view>
+        <view class="my-def-use">
+          <text>积分：</text>
+          <text>{{Lists.userinfo.score}}</text>
+        </view>
+      </view>
+    </view>
+    
+  </view>
+
+  <view class="my-action">
+      <!-- 我的问答 -->
+      <view class="my-act-item" catchtap='questButton'>
+        <image src='{{subject.list[0].logo}}'></image>
+        <text>{{subject.list[0].text}}</text>
+      </view>
+
+      <!-- 我的课程 -->
+      <view class="my-act-item" catchtap='courseButton'>
+        <image src='{{subject.list[1].logo}}'></image>
+        <text>{{subject.list[1].text}}</text>
+      </view>
+
+      <!-- <view class="my-act-item" catchtap='medalButton'>
+        <image src='{{subject.list[2].logo}}'></image>
+        <text>{{subject.list[2].text}}</text>
+      </view> -->
+
+      
+  
+  </view>
+</view>

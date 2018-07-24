@@ -1,0 +1,22 @@
+<view class="courseForm-container">
+  <!-- 加入课程 -->
+  <view class="courseForm-frame">
+    <view class="courseForm-header"></view>
+    <view class="courseForm-form">
+      <form bindsubmit="btnSubmit" bindreset="btnReset">
+        <!-- 课程编号 -->
+        <input type="number" placeholder="请输入课程编号" name="courseNum"></input>
+        <!-- 学生名字 -->
+        <input type="text" placeholder="请输入你的名字" name="ypurName"></input>
+        <!-- 学生学号 -->
+        <input type="number" placeholder="请输入你的学号" name="studentNum"></input>
+        <view class="btn">
+          <!-- 提交按钮 -->
+          <button class="btnSubmit" form-type="submit" bindtap='Submit'><text >提</text></button>
+          <!-- 重置按钮 -->
+          <button class="btnReset" form-type="reset"><text>重</text></button>
+        </view>
+      </form>
+    </view>
+  </view>
+</view>

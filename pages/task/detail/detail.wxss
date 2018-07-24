@@ -1,0 +1,3 @@
+/* pages/pratice/detail/detail.wxss */
+
+@import "/pages/module/swiperitem.wxss";

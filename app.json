@@ -1,0 +1,61 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/search/search",
+        "pages/my/my",
+        "pages/my/myQues/myQues",
+        "pages/pratice/pratice/pratice",
+        "pages/question/ask/ask",
+        "pages/login/login",
+        "pages/my/class/class",
+        "pages/question/question",
+        "pages/my/myAnswer/myAnswer",
+        "pages/index/answer/answer",
+        "pages/logs/logs",
+        "pages/courseform/courseform",
+        "pages/pratice/detail/detail",
+        "pages/my/medal/medal",
+        "pages/index/question/question",
+        "pages/my/class/addcourse/addcourse",
+        "pages/answer/answer",
+        "pages/task/task/task",
+        "pages/task/detail/detail",
+        "pages/task/result/result",
+        "pages/ques/ques",
+        "pages/pratice/result/result"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "picture/01.png",
+                "selectedIconPath": "picture/01.png"
+            },
+            {
+                "pagePath": "pages/pratice/pratice/pratice",
+                "text": "练习",
+                "iconPath": "picture/02.png",
+                "selectedIconPath": "picture/02.png"
+            },
+            {
+                "pagePath": "pages/question/question",
+                "text": "答疑",
+                "iconPath": "picture/03.png",
+                "selectedIconPath": "picture/03.png"
+            },
+            {
+                "pagePath": "pages/my/my",
+                "text": "我的",
+                "iconPath": "picture/04.png",
+                "selectedIconPath": "picture/04.png"
+            }
+        ]
+    }
+}

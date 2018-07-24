@@ -1,0 +1,51 @@
+/* pages/my/medal/medal.wxss */
+page{
+  width:100%;
+  height:100%;
+  background:#e8e8e8;
+}
+
+.medal-container
+{
+
+}
+
+.medalWall
+{
+  display: flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:center;
+  margin:3rpx 0 3rpx 0;
+  background:#fff;
+}
+
+/* 荣誉墙-个人头像 */
+.mW-avatar
+{
+  width:100rpx;
+  height:100rpx;
+}
+
+/* 荣誉墙-个人名字 */
+.mW-name
+{
+  font-size:27rpx;
+  font-family:'Microsoft Yahei';
+  color:#666;
+}
+
+/* 荣誉墙-个人勋章 */
+.mW-medal
+{
+  width:100rpx;
+  height:100rpx;
+}
+
+/* 荣誉墙-个人成绩 */
+.mW-grade
+{
+  font-size:27rpx;
+  font-family:'Microsoft Yahei';
+  color:#666;
+}

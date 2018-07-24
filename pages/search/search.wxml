@@ -1,0 +1,27 @@
+<view class="container">
+  <block wx:for="{{searchStorage.searchLists.search}}">
+    <!-- 搜索出来的问题 -->
+    <view class="block" catchtap="typeButton" data-type="{{item.type}}" data-id="{{item.sub_id}}" data-title="{{item.title}}" data-question="{{item.question}}" data-cover="{{item.cover}}">
+      <view class="firstHalf">
+        <!-- 问题的标题 -->
+        <view class="title">
+          <text>{{item.title}}</text>
+        </view>
+        <!-- 问题的类型 -->
+        <view class="type">
+          <text>{{item.type}}</text>
+        </view>
+      </view>
+      <view class="secondHalf">
+        <!-- 问题的内容 -->
+        <view class="text">
+          <text>{{item.text}}</text>
+        </view>
+        <!-- 问题的时间 -->
+        <view class="time">
+          <text>{{item.stime}}</text>
+        </view>
+      </view>
+    </view>
+  </block>
+</view>
